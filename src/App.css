@@ -1,0 +1,47 @@
+body {
+  background-color: #5DADE2;
+}
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.weather-container {
+  margin-top: 20px;
+}
+
+.weather-info {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
