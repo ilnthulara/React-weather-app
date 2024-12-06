@@ -33,9 +33,15 @@ const Weather = () => {
       <button onClick={getWeather}>Get Weather</button>
       {weatherData && (
         <div>
-          <h2>Weather in {weatherData.name}, {weatherData.sys.country}</h2>
+          <h2>
+            Weather in {weatherData.name}, {weatherData.sys.country}
+          </h2>
           <p>Temperature: {weatherData.main.temp}°C</p>
           <p>Weather: {weatherData.weather[0].description}</p>
+          <img
+            src={`https://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`}
+            alt={weatherData.weather[0].description}
+          />
         </div>
       )}
     </div>
